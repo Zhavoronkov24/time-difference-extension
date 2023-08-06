@@ -1,0 +1,54 @@
+body {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  margin: 40px;
+  padding: 0;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.input-container {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="time"] {
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin: 20px auto;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#result {
+  text-align: left;
+  margin-top: 20px;
+}
+
+#total-result {
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+}
